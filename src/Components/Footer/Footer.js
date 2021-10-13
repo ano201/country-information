@@ -16,19 +16,19 @@ const Footer = () => {
     <h3 className='txt-center'>GET IN TOUCH</h3>
     <div className='getTouch'>
      <div>
-      <a target='_blank' href={'https://www.facebook.com/murad.hossain201'}><img src={fb} alt='' /></a>
+      <a target='_blank' rel='noreferrer' href={'https://www.facebook.com/murad.hossain201'}><img src={fb} alt='' /></a>
      </div>
      <div>
-      <a target='_blank' href={'https://instagram.com/somudrobilas'}><img src={insta} alt='' /></a>
+      <a target='_blank' rel='noreferrer' href={'https://instagram.com/somudrobilas'}><img src={insta} alt='' /></a>
      </div>
      <div>
-      <a target='_blank' href={'http://twitter.com/muradmt201'}><img src={twit} alt='' /></a>
+      <a target='_blank' rel='noreferrer' href={'http://twitter.com/muradmt201'}><img src={twit} alt='' /></a>
      </div>
      <div>
-      <a target='_blank' href={'https://github.com/ano201'}><img src={git} alt='' /></a>
+      <a target='_blank' rel='noreferrer' href={'https://github.com/ano201'}><img src={git} alt='' /></a>
      </div>
      <div>
-      <a target='_blank' href={'https://www.linkedin.com/in/murad-hossain-723242215'}><img src={linkedin} alt='' /></a>
+      <a target='_blank' rel='noreferrer' href={'https://www.linkedin.com/in/murad-hossain-723242215'}><img src={linkedin} alt='' /></a>
      </div>
     </div>
    </div>
