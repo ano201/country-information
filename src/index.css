@@ -14,14 +14,29 @@ a, a:visited {
  text-align: center;
 }
 
-.header nav{
- width: 70%;
+.header{
+ background: rgba(255, 255, 255, 0.4);
  position: fixed;
  top: 15px;
+}
+.header img{
+ width: 30px;
+ height: 30px;
+}
+.header .nav-container{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+.header nav{
+ width: 70%;
  display: flex;
  justify-content: space-between;
  font-weight: bolder;
  font-size: 12px;
+}
+.menu{
+ transform: rotateY(180deg);
 }
 
 
