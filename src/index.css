@@ -15,7 +15,8 @@ a, a:visited {
 }
 
 .header{
- background: rgba(255, 255, 255, 0.4);
+ width: 100vw;
+ background: #E7E7E7D6;
  position: fixed;
  top: 15px;
 }
@@ -37,6 +38,28 @@ a, a:visited {
 }
 .menu{
  transform: rotateY(180deg);
+}
+.menu,.favourite{
+ transition: 1s;
+}
+.after-nav{
+ position: relative;
+}
+.menu-container, .fav-container{
+ position: absolute;
+ top: 0;
+ width: 46%;
+ height: 100vh;
+ padding: 5px;
+ transition: 1s;
+}
+.menu-container{
+ background: lightblue;
+ left: -70%;
+}
+.fav-container{
+ background: lightpink;
+ right: -70%;
 }
 
 
