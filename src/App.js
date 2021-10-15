@@ -9,7 +9,9 @@ function App() {
   <>
     <Header />
     <Switch>
-     <Route exact path={['/', '/home']} component={Home} />
+     <div style={{marginTop:'3rem', marginBottom:'3rem'}}>
+      <Route exact path={['/', '/home']} component={Home} />
+     </div>
     </Switch>
     <Footer />
   </>

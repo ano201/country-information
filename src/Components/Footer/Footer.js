@@ -1,5 +1,5 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import fb from '../../images/getTouch/Facebook.svg';
 import insta from '../../images/getTouch/Instagram.svg';
 import twit from '../../images/getTouch/Twitter.svg';
@@ -12,6 +12,16 @@ const Footer = () => {
 
  return (
   <div className='footer'>
+   <div className='container text-button'>
+    <div>
+     <h3>Country Info</h3>
+     <p style={{marginTop: '-1rem'}}>a little information of our world.</p>
+     <Link className='btn' to='/contact-us'>Contact Us</Link>
+    </div>
+    <div>
+    
+    </div>
+   </div>
    <div className='container'>
     <h3 className='txt-center'>GET IN TOUCH</h3>
     <div className='getTouch'>

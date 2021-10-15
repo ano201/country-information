@@ -1,6 +1,27 @@
 body {
   margin: 0;
   padding: 0;
+  color: #616272;
+}
+.btn{
+ border: 1px solid;
+ border-radius: 5px;
+ padding: 3px 7px;
+ font-weight: bolder;
+ color: royalblue !important;
+}
+.btn:hover{
+ animation: btn 4s infinite;
+}
+@keyframes btn{
+ 0%,100%{
+  background-color: royalblue;
+  color: white;
+ }
+ 50%{
+  background-color: inherit;
+  color: royalblue;
+ }
 }
 a, a:visited {
  text-decoration: none;
@@ -44,6 +65,7 @@ a, a:visited {
 }
 .after-nav{
  position: relative;
+ background: inherit
 }
 .menu-container, .fav-container{
  position: absolute;
@@ -52,13 +74,12 @@ a, a:visited {
  height: 100vh;
  padding: 5px;
  transition: 1s;
+ background: inherit;
 }
 .menu-container{
- background: lightblue;
  left: -70%;
 }
 .fav-container{
- background: lightpink;
  right: -70%;
 }
 
