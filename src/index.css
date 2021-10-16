@@ -35,6 +35,8 @@ a, a:visited {
  text-align: center;
 }
 
+/*Header and nav*/
+
 .header{
  width: 100vw;
  background: #E7E7E7D6;
@@ -83,7 +85,39 @@ a, a:visited {
  right: -70%;
 }
 
+/*all country and card*/
 
+.country-container{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ padding: 10px 0;
+ overflow-x: hidden;
+}
+.card img{
+ width: 100%;
+ transition: 2s;
+}
+.card{
+ border: 1px solid #616272;
+ transition: 2s;
+ border-radius: 5px;
+ width: 47%;
+ margin-top: 17px;
+}
+.c-img{
+ overflow: hidden;
+ width: 95%;
+ margin: 10px auto 0 auto;
+}
+.card:hover img{
+ transform: scale(1.5);
+}
+.card:hover{
+ box-shadow: 5px 5px 5px #DBDCDE, -5px -5px 5px #DBDCDE, 5px -5px 5px #DBDCDE, -5px 5px 5px #DBDCDE;
+}
+
+/*footer*/
 
 .footer{
  width: 100%;
